@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Ex3.dir/sort.c.o CMakeFiles/Ex3.dir/isort.c.o CMakeFiles/Ex3.dir/txtfind.c.o CMakeFiles/Ex3.dir/txfind.c.o  -o Ex3 
+/usr/bin/cc -g   CMakeFiles/Ex3.dir/isort.c.o CMakeFiles/Ex3.dir/txtfind.c.o  -o Ex3 

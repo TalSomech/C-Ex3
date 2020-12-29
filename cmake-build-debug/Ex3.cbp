@@ -82,12 +82,6 @@
 		<Unit filename="/home/tal/CLionProjects/C-Ex3/isort.h">
 			<Option target="Ex3"/>
 		</Unit>
-		<Unit filename="/home/tal/CLionProjects/C-Ex3/sort.c">
-			<Option target="Ex3"/>
-		</Unit>
-		<Unit filename="/home/tal/CLionProjects/C-Ex3/txfind.c">
-			<Option target="Ex3"/>
-		</Unit>
 		<Unit filename="/home/tal/CLionProjects/C-Ex3/txtfind.c">
 			<Option target="Ex3"/>
 		</Unit>

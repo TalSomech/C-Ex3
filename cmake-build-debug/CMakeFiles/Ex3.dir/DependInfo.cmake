@@ -5,8 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/tal/CLionProjects/C-Ex3/isort.c" "/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/isort.c.o"
-  "/home/tal/CLionProjects/C-Ex3/sort.c" "/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/sort.c.o"
-  "/home/tal/CLionProjects/C-Ex3/txfind.c" "/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/txfind.c.o"
   "/home/tal/CLionProjects/C-Ex3/txtfind.c" "/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/txtfind.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Ex3.dir/isort.c.o"
-  "CMakeFiles/Ex3.dir/sort.c.o"
-  "CMakeFiles/Ex3.dir/txfind.c.o"
   "CMakeFiles/Ex3.dir/txtfind.c.o"
   "Ex3"
   "Ex3.pdb"

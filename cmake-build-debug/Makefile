@@ -170,60 +170,6 @@ isort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/isort.c.s
 .PHONY : isort.c.s
 
-sort.o: sort.c.o
-
-.PHONY : sort.o
-
-# target to build an object file
-sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/sort.c.o
-.PHONY : sort.c.o
-
-sort.i: sort.c.i
-
-.PHONY : sort.i
-
-# target to preprocess a source file
-sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/sort.c.i
-.PHONY : sort.c.i
-
-sort.s: sort.c.s
-
-.PHONY : sort.s
-
-# target to generate assembly for a file
-sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/sort.c.s
-.PHONY : sort.c.s
-
-txfind.o: txfind.c.o
-
-.PHONY : txfind.o
-
-# target to build an object file
-txfind.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/txfind.c.o
-.PHONY : txfind.c.o
-
-txfind.i: txfind.c.i
-
-.PHONY : txfind.i
-
-# target to preprocess a source file
-txfind.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/txfind.c.i
-.PHONY : txfind.c.i
-
-txfind.s: txfind.c.s
-
-.PHONY : txfind.s
-
-# target to generate assembly for a file
-txfind.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex3.dir/build.make CMakeFiles/Ex3.dir/txfind.c.s
-.PHONY : txfind.c.s
-
 txtfind.o: txtfind.c.o
 
 .PHONY : txtfind.o
@@ -263,12 +209,6 @@ help:
 	@echo "... isort.o"
 	@echo "... isort.i"
 	@echo "... isort.s"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
-	@echo "... txfind.o"
-	@echo "... txfind.i"
-	@echo "... txfind.s"
 	@echo "... txtfind.o"
 	@echo "... txtfind.i"
 	@echo "... txtfind.s"

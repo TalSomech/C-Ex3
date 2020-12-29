@@ -3,4 +3,4 @@ project(Ex3 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Ex3 sort.c isort.h isort.c txtfind.c txtfind.h txfind.c)
+add_executable(Ex3 isort.h isort.c txtfind.c txtfind.h)

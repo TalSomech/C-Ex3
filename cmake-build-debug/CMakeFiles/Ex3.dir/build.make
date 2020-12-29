@@ -77,22 +77,9 @@ include CMakeFiles/Ex3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ex3.dir/flags.make
 
-CMakeFiles/Ex3.dir/sort.c.o: CMakeFiles/Ex3.dir/flags.make
-CMakeFiles/Ex3.dir/sort.c.o: ../sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ex3.dir/sort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex3.dir/sort.c.o   -c /home/tal/CLionProjects/C-Ex3/sort.c
-
-CMakeFiles/Ex3.dir/sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ex3.dir/sort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tal/CLionProjects/C-Ex3/sort.c > CMakeFiles/Ex3.dir/sort.c.i
-
-CMakeFiles/Ex3.dir/sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ex3.dir/sort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tal/CLionProjects/C-Ex3/sort.c -o CMakeFiles/Ex3.dir/sort.c.s
-
 CMakeFiles/Ex3.dir/isort.c.o: CMakeFiles/Ex3.dir/flags.make
 CMakeFiles/Ex3.dir/isort.c.o: ../isort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Ex3.dir/isort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ex3.dir/isort.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex3.dir/isort.c.o   -c /home/tal/CLionProjects/C-Ex3/isort.c
 
 CMakeFiles/Ex3.dir/isort.c.i: cmake_force
@@ -105,7 +92,7 @@ CMakeFiles/Ex3.dir/isort.c.s: cmake_force
 
 CMakeFiles/Ex3.dir/txtfind.c.o: CMakeFiles/Ex3.dir/flags.make
 CMakeFiles/Ex3.dir/txtfind.c.o: ../txtfind.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Ex3.dir/txtfind.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Ex3.dir/txtfind.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex3.dir/txtfind.c.o   -c /home/tal/CLionProjects/C-Ex3/txtfind.c
 
 CMakeFiles/Ex3.dir/txtfind.c.i: cmake_force
@@ -116,36 +103,19 @@ CMakeFiles/Ex3.dir/txtfind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ex3.dir/txtfind.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tal/CLionProjects/C-Ex3/txtfind.c -o CMakeFiles/Ex3.dir/txtfind.c.s
 
-CMakeFiles/Ex3.dir/txfind.c.o: CMakeFiles/Ex3.dir/flags.make
-CMakeFiles/Ex3.dir/txfind.c.o: ../txfind.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Ex3.dir/txfind.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex3.dir/txfind.c.o   -c /home/tal/CLionProjects/C-Ex3/txfind.c
-
-CMakeFiles/Ex3.dir/txfind.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ex3.dir/txfind.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tal/CLionProjects/C-Ex3/txfind.c > CMakeFiles/Ex3.dir/txfind.c.i
-
-CMakeFiles/Ex3.dir/txfind.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ex3.dir/txfind.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tal/CLionProjects/C-Ex3/txfind.c -o CMakeFiles/Ex3.dir/txfind.c.s
-
 # Object files for target Ex3
 Ex3_OBJECTS = \
-"CMakeFiles/Ex3.dir/sort.c.o" \
 "CMakeFiles/Ex3.dir/isort.c.o" \
-"CMakeFiles/Ex3.dir/txtfind.c.o" \
-"CMakeFiles/Ex3.dir/txfind.c.o"
+"CMakeFiles/Ex3.dir/txtfind.c.o"
 
 # External object files for target Ex3
 Ex3_EXTERNAL_OBJECTS =
 
-Ex3: CMakeFiles/Ex3.dir/sort.c.o
 Ex3: CMakeFiles/Ex3.dir/isort.c.o
 Ex3: CMakeFiles/Ex3.dir/txtfind.c.o
-Ex3: CMakeFiles/Ex3.dir/txfind.c.o
 Ex3: CMakeFiles/Ex3.dir/build.make
 Ex3: CMakeFiles/Ex3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Ex3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tal/CLionProjects/C-Ex3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Ex3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ex3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

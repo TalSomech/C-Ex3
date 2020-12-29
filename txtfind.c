@@ -26,33 +26,52 @@ int getword(char w[]) {
     return strlen(w);
 }
 
-int substring(char *str1, char *str2) {
+int substring(char *sen1, char *str2) {
     int cmp = 0;
-    if (strlen(str2) > strlen(str1))
+    char wrd[30];
+    int k=0;
+    if (strlen(str2) > strlen(sen1))
         return 0;
-    for (int i = 0, j = 0; i < strlen(str1) && cmp < strlen(str2); i++) {
-        if (str1[i] == str2[j]) {
+    for (int i = 0, j = 0; i < strlen(sen1); i++) {
+        if(sen1[i]==' '||sen1[i]=='\r'||sen1[i]=='\n'){
+            wrd[k]='\0';
+            if(strlen(str2)==(strlen(wrd)-1)||strlen(str2)==(strlen(wrd)))
+                return 1;
+            cmp=0;
+            wrd[0]='\0';
+            j=k=0;
+        }
+        if (sen1[i] == str2[j]) {
             cmp++;
             j++;
         }
+        if(cmp>0){
+            wrd[k]=sen1[i];
+            k++;
+        }
     }
-
-    return cmp==strlen(str2)?1 : 0;
+    return 0;
 }
 
 int similar(char *s, char *t, int n){
     int cmp = 0;
     if (strlen(t) > strlen(s))
         return 0;
-    for (int i = 0, j = 0; i < strlen(s) && cmp < strlen(t); i++) {
+    for(int i = 0, j = 0; i < strlen(s) && cmp < strlen(t); i++) {
+        if(s[i]==' '||s[i]=='\t'){
+            cmp=0;
+        }
         if (s[i] == t[j]) {
             cmp++;
             j++;
         }
     }
+    if(s[strlen(s)-1]=='\r'){
+        s[strlen(s)-1]='\0';
+    }
     if(cmp!=strlen(t))
         return 0;
-    if(cmp==strlen(t))
+    if(cmp==strlen(s))
         return 1;
     return (cmp==strlen(s)-n)?1 : 0;
 }
@@ -60,7 +79,7 @@ int similar(char *s, char *t, int n){
 void print_lines(char *str){
     char text[line];
     while(get_line(text)!=-1){
-        if(similar(text,str,1))
+        if(substring(text,str))
             printf("%s",text);
     }
 }
@@ -74,18 +93,24 @@ void print_similar_words(char *str){
 }
 
 char splitFirst (char* wrd){
-    char* fl;
+    char fl[34];
     fgets(fl,34,stdin);
     int i=0;
     while(fl[i]!=' '){
-        wrd[i]=fl[i];
+        wrd[i]= (char) fl[i];
+        i++;
     }
-    return fl[i+1];
+    wrd[i]='\0';
+    return (char) fl[i + 1];
 }
 int main(){
-    char text[100];
-    char* wrd;
+    char wrd[34];
     char oper=splitFirst(wrd);
-    print_lines("cat");
+    if(oper=='a'){
+        print_lines(wrd);
+    }
+    if(oper=='b'){
+        print_similar_words(wrd);
+    }
     return 0;
 }
