@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Ex3.dir/isort.c.o CMakeFiles/Ex3.dir/txtfind.c.o  -o Ex3 
